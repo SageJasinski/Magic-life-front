@@ -1,0 +1,55 @@
+@import './variables.scss';
+
+body{
+    background-color: $mint;
+}
+.life-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.life-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10vh;
+    // margin: auto;
+}
+.life{
+    align-items: center;
+    color: $black;
+}
+.addOne, .minusOne{
+    background-color: $orange;
+    border: $orange;
+    margin: auto;
+}
+.addFive, .minusFive{
+    background-color: $grey;
+    border: $grey;
+    margin: auto;
+    margin-top: 30px;
+}
+.addOne{
+    margin-left: 40px;
+}
+.minusOne{
+    margin-right: 40px;
+}
+.addFive{
+    margin-left: 80px;
+}
+.minusFive{
+    margin-right: 80px;
+}
+.damageDelt{
+    padding: 20px;
+    font-size: 20px;
+}
+.minusFive:hover, .minusOne:hover{
+    background-color: $red;
+}
+.addFive:hover, .addOne:hover{
+    background-color: $green;
+}

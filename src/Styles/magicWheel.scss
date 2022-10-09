@@ -1,0 +1,44 @@
+@import './variables.scss';
+
+.wheel img, .green-blue img, .black-red img{
+    mix-blend-mode: multiply;
+    width: 30px;
+    height: auto;
+}
+.Border {
+    margin: auto;
+    background-color:whitesmoke;
+    width: 100px;
+}
+.wheel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20vh;
+    padding-top: 10px;
+}
+
+.green-blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.black-red{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom:10px;
+}
+.green-blue img {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.black-red img{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}

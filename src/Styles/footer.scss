@@ -1,0 +1,19 @@
+@import './variables.scss';
+
+nav.navbar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: $grey;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+nav.navbar button {
+    color: $black;
+    border:solid lightgray;
+    border-radius: 0px;
+    background-color: lightgray;
+    padding:20px;
+    margin-top: 0px;
+}

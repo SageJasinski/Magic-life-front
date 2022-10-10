@@ -11,9 +11,13 @@ nav.navbar{
 }
 nav.navbar button {
     color: $black;
-    border:solid lightgray;
+    border:solid $orange;
     border-radius: 0px;
-    background-color: lightgray;
+    background-color: $orange;
     padding:20px;
     margin-top: 0px;
+}
+nav.navbar button:hover {
+    border: solid lightgrey;
+    background-color: lightgrey;
 }

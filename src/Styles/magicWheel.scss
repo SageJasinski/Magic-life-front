@@ -5,9 +5,12 @@
     width: 30px;
     height: auto;
 }
+.wheel img:hover, .green-blue img:hover, .black-red img:hover{
+    cursor: pointer;
+}
 .Border {
     margin: auto;
-    background-color:whitesmoke;
+    // background-color:whitesmoke;
     width: 100px;
 }
 .wheel{

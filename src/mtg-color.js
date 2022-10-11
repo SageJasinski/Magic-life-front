@@ -12,17 +12,17 @@ render(){
         <>
         <div className="Border">
         <div className="wheel">
-            <img src={Plain} alt="mtg-plains symbol"/>
+            <img src={Plain} alt="mtg-plains symbol" onClick={this.props.plainsClick}/>
         </div>
 
         <div className="green-blue">
-            <img src={Island} alt="mtg-Island symbol"/>
-            <img src={Forest} alt="mtg-Forest symbol"/>
+            <img src={Island} alt="mtg-Island symbol" onClick={this.props.islandClick}/>
+            <img src={Forest} alt="mtg-Forest symbol" onClick={this.props.forestClick}/>
         </div>
 
         <div className="black-red">
-            <img src={Swamp} alt="mtg-Swamp symbol"/>
-            <img src={Mountain} alt="mtg-Mountain symbol"/>
+            <img src={Swamp} alt="mtg-Swamp symbol" onClick={this.props.swampClick}/>
+            <img src={Mountain} alt="mtg-Mountain symbol" onClick={this.props.moutainClick}/>
         </div>
         </div>
         </>

@@ -67,11 +67,10 @@ class App extends React.Component{
     let detectWhite = this.state.white ?  ("body").css(" background-color", "white") : '';
     return detectWhite;
   }
+  
   render(){
     return(
       <>
-
-
       <MtgColorPicker
       plainsClick={this.whiteClick}
       

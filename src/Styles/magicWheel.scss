@@ -1,7 +1,8 @@
 @import './variables.scss';
 
 .wheel img, .green-blue img, .black-red img{
-    mix-blend-mode: multiply;
+    // mix-blend-mode: multiply;
+    border-radius: 20px;
     width: 30px;
     height: auto;
 }
@@ -14,6 +15,9 @@
     width: 100px;
 }
 .wheel{
+    // #plainsImg:active{
+    //     border: solid blue;
+    // }
     display: flex;
     justify-content: center;
     align-items: center;
